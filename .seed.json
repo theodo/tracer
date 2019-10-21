@@ -8,7 +8,7 @@
   "generateReact": true,
   "generateReactNative": false,
   "app_port": "3000",
-  "cleanProjectName": "leoanessi",
+  "cleanProjectName": "tracer",
   "refresh_token": "refreshToken",
   "access_token_minutes_to_live": 10,
   "refresh_token_minutes_to_live": 525600,

@@ -1,7 +1,7 @@
 {
-  "name": "leoanessi",
+  "name": "tracer",
   "version": "1.0.0",
-  "description": "Serverless backend for leoanessi",
+  "description": "Serverless backend for tracer",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
