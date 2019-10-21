@@ -18,7 +18,7 @@ commands:
       - skip/skip_unchanged:
           paths: << parameters.workspace >>
       - attach_workspace:
-          at: ~/leo_anessi/<< parameters.workspace >>
+          at: ~/tracer/<< parameters.workspace >>
       - restore_cache:
           key: node-modules-cache-{{ checksum "<< parameters.workspace >>/yarn.lock" }}
       - run:
@@ -30,7 +30,7 @@ commands:
           paths:
             - << parameters.workspace >>/node_modules
       - persist_to_workspace:
-          root: ~/leo_anessi/<< parameters.workspace >>
+          root: ~/tracer/<< parameters.workspace >>
           paths:
             - node_modules
             - .env
@@ -44,7 +44,7 @@ commands:
       - skip/skip_unchanged:
           paths: << parameters.workspace >>
       - attach_workspace:
-          at: ~/leo_anessi/<< parameters.workspace >>
+          at: ~/tracer/<< parameters.workspace >>
       - run:
           working_directory: << parameters.workspace >>
           name: Unit test with coverage
@@ -65,7 +65,7 @@ commands:
       - skip/skip_unchanged:
           paths: << parameters.workspace >>
       - attach_workspace:
-          at: ~/leo_anessi/<< parameters.workspace >>
+          at: ~/tracer/<< parameters.workspace >>
       - run:
           working_directory: << parameters.workspace >>
           name: Run linter
@@ -80,7 +80,7 @@ commands:
     steps:
       - checkout
       - attach_workspace:
-          at: ~/leo_anessi/<< parameters.workspace >>
+          at: ~/tracer/<< parameters.workspace >>
       - run:
           working_directory: << parameters.workspace >>
           name: Check dependencies
@@ -89,14 +89,14 @@ commands:
 jobs:
   yarn-install-front:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     steps:
       - yarn-install:
           workspace: frontend
 
   react-tests:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     environment:
       NODE_ENV: test
     steps:
@@ -105,7 +105,7 @@ jobs:
 
   react-bundlesize:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     environment:
       NODE_ENV: prod
     steps:
@@ -113,7 +113,7 @@ jobs:
       - skip/skip_unchanged:
           paths: frontend
       - attach_workspace:
-          at: ~/leo_anessi/frontend
+          at: ~/tracerd
       - run:
           working_directory: frontend
           name: Check bundle size
@@ -123,7 +123,7 @@ jobs:
 
   react-linter:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     environment:
       NODE_ENV: prod
     steps:
@@ -140,7 +140,7 @@ jobs:
 
   react-audit:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     environment:
       NODE_ENV: prod
     steps:
@@ -148,14 +148,14 @@ jobs:
           workspace: frontend
   yarn-install-back:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     steps:
       - yarn-install:
           workspace: backend
 
   node-tests:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     environment:
       NODE_ENV: test
     steps:
@@ -164,7 +164,7 @@ jobs:
 
   node-linter:
     executor: defaults_typescript
-    working_directory: ~/leo_anessi
+    working_directory: ~/tracer
     environment:
       NODE_ENV: prod
     steps:

@@ -1,6 +1,7 @@
-# leo_anessi
+# Tracer
 
-🚧 A project that does something.
+![](https://gear.blizzard.com/media/catalog/product/o/w/ow-gold-tracer-video.jpg)
+This project aims to help projects to follow the performance of their CircleCI workflow
 
 ## Getting started
 
@@ -17,16 +18,19 @@
 > 🚧 Update me!
 
 Project director:
-  - **P D** (pd@theodo.co.uk)
+
+- **P D** (pd@theodo.co.uk)
 
 Developers (see [contributors](../../graphs/contributors)):
-  - **Dev 1** (dev@theodo.co.uk)
-  - **Dev 2** (dev@theodo.co.uk)
-  - **Dev 3** (dev@theodo.co.uk)
+
+- **Dev 1** (dev@theodo.co.uk)
+- **Dev 2** (dev@theodo.co.uk)
+- **Dev 3** (dev@theodo.co.uk)
 
 Scrum Master:
-  - **S M** (sm@theodo.co.uk)
+
+- **S M** (sm@theodo.co.uk)
 
 Product Owner:
-  - **P O** (po@client.com)
 
+- **P O** (po@client.com)
