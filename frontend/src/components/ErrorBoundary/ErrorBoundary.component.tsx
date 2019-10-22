@@ -1,7 +1,7 @@
 import * as Sentry from '@sentry/browser';
 import React, { ReactNode } from 'react';
 
-import { IFallbackProps } from 'components/AppCrashFallback/AppCrashFallback';
+import { IFallbackProps } from 'components/AppCrashFallback/AppCrashFallback.component';
 
 interface Props {
   children: ReactNode;

@@ -1,4 +1,4 @@
-import { mapPropsToValues, validateForm } from '../service';
+import { mapPropsToValues, validateForm } from '../Login.service';
 
 describe('Login form service', () => {
   describe('validateForm function', () => {

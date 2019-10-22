@@ -3,8 +3,8 @@ import React from 'react';
 import { FormattedMessage, InjectedIntl } from 'react-intl';
 
 import InputRow from 'components/InputRow';
-import { LoginButton, LoginContainer, LoginForm, Logo, Title } from './Login.form.style';
-import { FormValues } from './service';
+import { LoginButton, LoginContainer, LoginForm, Logo, Title } from './Form.style';
+import { FormValues } from '../Login.service';
 
 import logo from 'assets/forge_logo.png';
 

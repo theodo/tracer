@@ -1,8 +1,8 @@
 import { withFormik } from 'formik';
 import { injectIntl } from 'react-intl';
-import InnerLoginForm from './Login.form';
+import InnerLoginForm from './Form';
 
-import { handleSubmit, mapPropsToValues, validateForm } from './service';
+import { handleSubmit, mapPropsToValues, validateForm } from './Login.service';
 
 const LoginFormContainer = withFormik({
   mapPropsToValues,

@@ -1,1 +1,1 @@
-export { default } from './AppCrashFallback';
+export { default } from './AppCrashFallback.component';

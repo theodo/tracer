@@ -5,8 +5,8 @@ import { getLoginError, getUserToken } from 'redux/Login';
 import { loginUser } from 'redux/Login/actions';
 import { RootState } from 'redux/types';
 
-import LoginFormContainer from './Login';
-import { FormValues } from './service';
+import LoginFormContainer from './Login.component';
+import { FormValues } from './Login.service';
 
 const mapStateToProps = (state: RootState) => ({
   loginError: getLoginError(state),

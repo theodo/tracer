@@ -1,1 +1,1 @@
-export { default } from './InputRow';
+export { default } from './InputRow.component';

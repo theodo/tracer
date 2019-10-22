@@ -6,7 +6,7 @@ import { getUserToken } from 'redux/Login';
 import { logoutUser } from 'redux/Login/actions';
 import { RootState } from 'redux/types';
 import { PATHS } from 'routes';
-import Header from './Header';
+import Header from './Header.component';
 
 const mapStateToProps = (state: RootState) => ({
   isUserLoggedIn: !!getUserToken(state),
