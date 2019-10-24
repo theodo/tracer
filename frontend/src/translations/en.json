@@ -1,4 +1,5 @@
 {
+  "tracer": "Tracer",
   "header": {
     "login": "Login",
     "logout": "Log Out"

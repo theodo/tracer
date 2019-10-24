@@ -1,6 +1,6 @@
 # Tracer
 
-![](https://i.kinja-img.com/gawker-media/image/upload/s--fUB7IwOr--/c_scale,f_auto,fl_progressive,q_80,w_800/zwwlvzjj0ximj6hsaxyi.jpg)
+<div style="text-align:center"><img src="./frontend/src/assets/tracer_mini.jpg" /></div>
 
 This project aims to help projects to follow the performance of their CircleCI workflow
 

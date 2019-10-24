@@ -1,4 +1,5 @@
 {
+  "tracer": "Tracer",
   "header": {
     "login": "Connexion",
     "logout": "Déconnexion"

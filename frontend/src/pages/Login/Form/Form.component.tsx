@@ -6,7 +6,7 @@ import InputRow from 'components/InputRow';
 import { LoginButton, LoginContainer, LoginForm, Logo, Title } from './Form.style';
 import { FormValues } from '../Login.service';
 
-import logo from 'assets/forge_logo.png';
+import logo from 'assets/tracer_logo.png';
 
 interface InnerLoginFormProps {
   errors: {

@@ -11,11 +11,11 @@ const MEASUREMENT_UNIT = 'px';
  */
 const colorPalette = {
   greyLight: '#e0e0e0',
-  greyDark: '#222',
-  amberLight: '#FFD54F',
-  amber: '#FFC107',
-  amberDark: '#FF8F00',
-  blueLight: '#F4F9FB',
+  marronDark: '#381914',
+  amberLight: '#e7b363',
+  amber: '#e7a43c',
+  amberDark: '#ebb663',
+  marronLight: '#f8cac2',
   white: '#FFFFFF',
   red: '#FF7373',
   blackTransparent: 'rgba(0, 0, 0, 0.24)',
@@ -27,13 +27,14 @@ const colorPalette = {
  * Ex: fill, border-color, background-color, color ...
  */
 export const colorUsage = {
-  headerBackground: colorPalette.greyDark,
-  primaryTextColor: colorPalette.greyDark,
+  headerBackground: colorPalette.marronDark,
+  headerTextColor: colorPalette.amber,
+  primaryTextColor: colorPalette.marronDark,
   primaryLight: colorPalette.amberLight,
   primary: colorPalette.amber,
   primaryDark: colorPalette.amberDark,
-  contentBackground: colorPalette.blueLight,
-  linkColor: colorPalette.greyDark,
+  contentBackground: colorPalette.white,
+  linkColor: colorPalette.amber,
   linkColorHover: colorPalette.amberDark,
   linkColorDisabled: colorPalette.greyLight,
   codeColor: colorPalette.amberDark,
