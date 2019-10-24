@@ -1,6 +1,6 @@
 # Tracer
 
-<div style="text-align:center"><img src="./frontend/src/assets/tracer_mini.jpg" /></div>
+![](./frontend/src/assets/tracer_mini.jpg)
 
 This project aims to help projects to follow the performance of their CircleCI workflow
 

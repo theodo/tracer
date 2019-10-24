@@ -5,6 +5,7 @@
     "logout": "Déconnexion"
   },
   "home": {
+    "title": "Bienvenue sur Tracer, es-tu prêt à rendre ta CI plus rapide ?",
     "use-a-link": "Ou utilise un lien",
     "get-started": "Pour commencer, modifie",
     "save-to-reload": "et sauvegarde pour recharger.",

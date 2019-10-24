@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { fontFamily, fontSize, fontWeight, getSpacing, lineHeight } from 'stylesheet';
+import { fontFamily, fontSize, fontWeight, getSpacing, lineHeight, colorUsage } from 'stylesheet';
 import { Form } from 'formik';
 import Button from 'components/Button';
 
@@ -14,6 +14,7 @@ export const Title = styled.h1`
   font-size: ${fontSize.large};
   line-height: ${lineHeight.medium};
   margin-bottom: ${getSpacing(12)};
+  color: ${colorUsage.primaryTextColor};
 `;
 
 export const LoginContainer = styled.div`
@@ -22,6 +23,7 @@ export const LoginContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+  color: ${colorUsage.primaryTextColor};
 `;
 
 export const LoginForm = styled(Form)`

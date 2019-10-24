@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { HomeContainer, Logo, Title } from './Home.style';
 import logo from 'assets/tracer_logo.png';
 import tracer_mini from 'assets/tracer_mini.jpg';
@@ -6,8 +7,10 @@ import tracer_mini from 'assets/tracer_mini.jpg';
 const Home: React.FunctionComponent = () => (
   <HomeContainer>
     <Logo alt="tracerlogo" src={logo} />
-    <Title>Welcome to Tracer, are rou ready to make your CI go faster ?</Title>
-    <img alt="mini tracer image" src={tracer_mini} />
+    <Title>
+      <FormattedMessage id="home.title" />
+    </Title>
+    <img alt="mini tracer" src={tracer_mini} />
   </HomeContainer>
 );
 

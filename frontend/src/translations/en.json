@@ -5,6 +5,7 @@
     "logout": "Log Out"
   },
   "home": {
+    "title": "Welcome to Tracer, are rou ready to make your CI go faster ?",
     "use-a-link": "Or use a link",
     "get-started": "To get started, edit",
     "save-to-reload": "and save to reload.",

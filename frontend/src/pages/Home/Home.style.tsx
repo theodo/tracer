@@ -29,6 +29,7 @@ export const Title = styled.h1`
   font-size: ${fontSize.large};
   line-height: ${lineHeight.medium};
   margin-bottom: ${getSpacing(12)};
+  color: ${colorUsage.primaryTextColor};
 `;
 Title.displayName = 'Title';
 

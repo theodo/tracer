@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   height: ${getSpacing(16)};
-  padding: 0 ${getSpacing(4)};
+  padding: 0 ${getSpacing(26)};
   font-size: ${fontSize.large};
   background-color: ${colorUsage.headerBackground};
   color: ${colorUsage.headerTextColor};
